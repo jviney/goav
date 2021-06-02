@@ -7,6 +7,7 @@ package swresample
 
 /*
 	#cgo pkg-config: libswresample
+	#cgo CFLAGS: -Wno-deprecated-declarations
 	#include <libswresample/swresample.h>
 */
 import "C"

@@ -7,6 +7,7 @@
 package avformat
 
 //#cgo pkg-config: libavformat libavcodec libavutil libavdevice libavfilter libswresample libswscale
+//#cgo CFLAGS: -Wno-deprecated-declarations
 //#include <stdio.h>
 //#include <stdlib.h>
 //#include <inttypes.h>

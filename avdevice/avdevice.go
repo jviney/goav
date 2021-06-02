@@ -9,6 +9,7 @@ package avdevice
 
 /*
 	#cgo pkg-config: libavdevice
+	#cgo CFLAGS: -Wno-deprecated-declarations
 	#include <libavdevice/avdevice.h>
 */
 import "C"

@@ -7,6 +7,7 @@
 package swscale
 
 //#cgo pkg-config: libswscale libavutil
+//#cgo CFLAGS: -Wno-deprecated-declarations
 //#include <stdio.h>
 //#include <stdlib.h>
 //#include <inttypes.h>
